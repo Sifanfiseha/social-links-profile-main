@@ -15,9 +15,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: calc(100% - 10px);
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
 }
 .container {
     color: white;
@@ -56,16 +57,16 @@ ul {
     list-style: none;
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 8px;
     justify-content: center;
     align-content: center;
-    gap: 22px;
+    gap: 20px;
 }
 ul li {
     background-color: var(--Grey-700);
     display: inline-block;
     flex: 1;
-    padding: 10px 5px;
+    padding: 14px 5px;
     text-align: center;
     border-radius: 6px;
     width: 300px;
